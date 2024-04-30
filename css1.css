@@ -1,0 +1,133 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 7vh;
+}
+
+.logo {
+    align-self: flex-end;
+    font-family: var(--font-family);
+    color: #6070ff;
+    width: 40px;
+    height: 30px;
+
+}
+
+.nav li {
+    padding: 10%;
+    display: inline;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+
+
+.mylogo h1 {
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo svg {
+    align-self: flex-end;
+    width: 40px;
+}
+
+.container {
+    height: 93vh;
+}
+
+.head {
+    margin-top: 10%;
+    margin-left: 20%;
+    color: rgb(11, 1, 1);
+    font: bolder;
+    font-size: 30px;
+    font-family: var(--font-family);
+}
+
+.body {
+    margin-left: 20%;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.link {
+    margin-left: 20%;
+    font-family: var(--font-family);
+    color: #7f8cff;
+}
+
+.link:hover {
+    color: black;
+}
+
+.social {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+
+    body {
+        background-image: url(/html-css-project/image/mob.png);
+        background-size: cover;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+    }
+
+    .nav li {
+        display: block;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+
+    body {
+        background-image: url(/html-css-project/image/desk4.png);
+        background-size: cover;
+
+    }
+
+}
+
+.a:hover {
+    background-color: rgb(22, 235, 239);
+
+}
+
+.b:hover {
+    background-color: rgb(22, 235, 239);
+
+}
+
+.c:hover {
+    background-color: rgb(22, 235, 239);
+
+}
+
+.d:hover {
+    background-color: rgb(22, 235, 239);
+}
+
+.e:hover {
+    background-color: rgb(22, 235, 239);
+
+}
