@@ -1,8 +1,11 @@
 The trail project
+
 About the project
+
 This project is about creating template in mobile and desktop version that works  on the web
 
 Built with
+
 The main program I used in this project is vs code and using of linters
 
 Key Features
