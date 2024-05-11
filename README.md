@@ -13,13 +13,15 @@ Responsive template for desktop and mobile
 
 ## Live Demo
 
-[Live Demo] () Live Demo
+
 
 ## Getting Started
 You can also create your own using the live demo and the following softwares
 
 ## prerequisites
 [Vs Code](https://code.visualstudio.com/download)
+
 [.git](https://git-scm.com/downloads)
+
 [Node js](https://nodejs.org/en/download/current)
 is recommended to use the version your instructor uses
