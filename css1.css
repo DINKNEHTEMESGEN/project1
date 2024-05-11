@@ -111,6 +111,11 @@
     margin-top: 3%;
 }
 
+.name {
+    text-align: left;
+    color: #396df2;
+}
+
 
 @media (min-width: 768px) {
     .logo {
