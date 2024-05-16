@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-        background-color: rgb(240, 240, 250);
+    background-color: rgb(240, 240, 250);
 
     height: 7vh;
 }
@@ -54,8 +54,8 @@
     font-family: var(--font-family);
 }
 
-.body { 
-    
+.body {
+
     font-family: var(--font-family);
     font-size: 18px;
 }
@@ -95,20 +95,22 @@
     .nav {
         display: none;
     }
-           .desktopv{
-            background-color: white;
-            margin-bottom: 10%;
-            border-radius: 5%;
-           }
+
+    .desktopv {
+        background-color: white;
+        margin-bottom: 10%;
+        border-radius: 5%;
+    }
 
     .body {
         background-image: url(/image/mob.png);
         background-size: cover;
-            
+
     }
-        body {
-            background-color: rgb(240, 240, 250);
-        }
+
+    body {
+        background-color: rgb(240, 240, 250);
+    }
 
     .contactmeButton {
         border-radius: 8px;
@@ -164,13 +166,14 @@
     .body {
         background-image: url(/image/desk4.png);
         background-size: cover;
-       
+
 
     }
 
-  body{
-    background-color: rgb(240, 240, 250);
-  }
+    body {
+        background-color: rgb(240, 240, 250);
+    }
+
     .desktopv {
         display: flex;
         margin-bottom: 60px;
@@ -378,7 +381,7 @@
     font-size: 15px;
     line-height: 160%;
     width: 360px;
-    
+
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     margin-bottom: 5%;
