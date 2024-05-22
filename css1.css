@@ -157,7 +157,7 @@
     }
 
     .body {
-        background-image: url(/image/mob.png);
+        background-image: url(./image/mob.png);
         background-size: cover;
 
     }
@@ -266,7 +266,7 @@
     }
 
     .body {
-        background-image: url(/image/desk4.png);
+        background-image: url(./image/desk4.png);
         background-size: cover;
 
 
@@ -502,4 +502,6 @@
 
 
 /*   for  desktop view  
+
 */
+
