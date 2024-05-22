@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link rel="stylesheet" href="./css1.css">
 
     <script src="/index.js"> </script>
@@ -14,10 +15,15 @@
 
     
 
+
+    <link rel="stylesheet" href="./css1.css">
+    <script src="/index.js"> </script>
+
     <title>PartOne</title>
 
 <body>
     <section>
+
 
 
 
@@ -43,13 +49,28 @@
                     <svg onclick=" openham()" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
 
+
         <div class="header">
+
+            <div class="navigation">
+                <div class="X-image">
+                    <img src="./image/closebtn.jpg" alt="x-image" onclick="closeham()">
+                </div>
+                <div class="ham-list">
+                    <ul>
+                        <li onclick="closeham()"><a href="#portfolio">portfolio</a></li>
+                        <li onclick="closeham()"><a href="#about">about</a></li>
+                        <li onclick="closeham()"><a href="#contact">contact </a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="mylogo">
                 <h1>My logo</h1>
             </div>
-            <nav class="navi">
+            <nav>
                 <div class="logo">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg onclick=" openham()" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
                             fill="#6070FF" />
@@ -58,17 +79,24 @@
                 <div>
                     <ul class="nav">
 
+
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
+
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
                     </ul>
                 </div>
             </nav>
         </div>
     </section>
+
 
     <section class="body" id="portfolio">
         <div class="container">
@@ -101,31 +129,36 @@
                 </div>
 
     <section class="body">
-        <div class="container">
-            <h1 class="head">
-                Hey I am Dinkneh.<br>
-                Glad to see you!
-            </h1>
-            <p>
-                I’m a software developer! I can help you build a product,
-                feature or website. Look through<br>
-                some of my work and experience!
-                If you like what you see and have a project you need<br>
-                coded, don’t hesitate to contact me.
-            </p>
-            <div class="link">
-                <h4>LET'S CONNECT</h4>
-            </div>
-            <div class="social">
 
-                <a href="https://twitter.com" class="a"> <img src="./image/twitter.png"
-                        alt="twitter"></a>
-                <a href="https://www.linkedin.com" class="b"> <img src="./image/Linkedin icon.png"
-                        alt="linkedin"></a>
-                <a href="" class="c"> <img src="./image/medium.png" alt="medium"></a>
-                <a href="https://github.com/DinknehTemesgen" class="d"> <img src="./image/github.png"
-                        alt="github"></a>
-                <a href="" class="e"> <img src="./image/angellist.png" alt="angel"></a>
+    <section class="body" id="portfolio">
+
+        <div class="container">
+            <div>
+                <h1 class="head">
+                    Hey I am Dinkneh.<br>
+                    Glad to see you!
+                </h1>
+                <p>
+                    I’m a software developer! I can help you build a product,
+                    feature or website. Look through<br>
+                    some of my work and experience!
+                    If you like what you see and have a project you need<br>
+                    coded, don’t hesitate to contact me.
+                </p>
+                <div class="link">
+                    <h4>LET'S CONNECT</h4>
+                </div>
+                <div class="social">
+
+                    <a href="https://twitter.com" class="a"> <img src="./image/twitter.png"
+                            alt="twitter"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com" class="b"> <img src="./image/Linkedin icon.png"
+                            alt="linkedin"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="" class="c"> <img src="./image/medium.png" alt="medium"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/DinknehTemesgen" class="d"> <img src="./image/github.png"
+                            alt="github"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="" class="e"> <img src="./image/angellist.png" alt="angel"></a>
+
 
 
             </div>
@@ -281,6 +314,7 @@
                 </div>
                 <div class="buttonsee">
                     <button>See Project</button>
+
                 </div>
             </div>
         </div>
@@ -291,6 +325,7 @@
     <!--section    3-->
     <section>
         <div class="desktopv">
+
 
             <div class="cards" id="about">
 
@@ -405,203 +440,273 @@
 </html>
 
 
-        <div class="header2">
-            <h1>Get in touch</h1>
-        </div>
-        <div>
-            <img src="./image/card1.png" alt="">
-        </div>
-        <div>
-            <h1>Tonic </h1>
-        </div>
-        <div>
-            <ul class="flex">
-                <b>CANOPY</b>
-                <li>Back End Developer</li>
-                <li>2015</li>
-            </ul>
-        </div>
-        <div>
-            <p>A daily selection of privately<br>
-                personalized reads; no accounts or <br>
-                sign-ups required.</p>
-        </div>
-        <div>
-            <UL class="address">
-                <li class="lists"><a href="#">HTML</a></li>
-                <li class="lists"><a href="#">CSS</a></li>
-                <li class="lists"><a href="#">JavaScript</a></li>
-            </UL>
-        </div>
-        <div class="buttonsee">
-            <button>See Project</button>
-        </div>
+            <div class="cards">
 
 
-        <div class="header2">
-            <h1>Get in touch</h1>
-        </div>
-        <div>
-            <img src="./image/card2.png" alt="">
-        </div>
-        <div>
-            <h1>Tonic </h1>
-        </div>
-        <div>
-            <ul class="flex">
-                <b>CANOPY</b>
-                <li>Back End Developer</li>
-                <li>2015</li>
-            </ul>
-        </div>
-        <div>
-            <p>A daily selection of privately<br>
-                personalized reads; no accounts or <br>
-                sign-ups required.</p>
-        </div>
-        <div>
-            <UL class="address">
-                <li class="lists"><a href="#">HTML</a></li>
-                <li class="lists"><a href="#">CSS</a></li>
-                <li class="lists"><a href="#">JavaScript</a></li>
-            </UL>
-        </div>
-        <div class="buttonsee">
-            <button>See Project</button>
-        </div>
-
-
-
-
-        <div class="header2">
-            <h1>Get in touch</h1>
-        </div>
-        <div>
-            <img src="./image/card3.png" alt="">
-        </div>
-        <div>
-            <h1>Tonic </h1>
-        </div>
-        <div>
-            <ul class="flex">
-                <b>CANOPY</b>
-                <li>Back End Developer</li>
-                <li>2015</li>
-            </ul>
-        </div>
-        <div>
-            <p>A daily selection of privately<br>
-                personalized reads; no accounts or <br>
-                sign-ups required.</p>
-        </div>
-        <div>
-            <UL class="address">
-                <li class="lists"><a href="#">HTML</a></li>
-                <li class="lists"><a href="#">CSS</a></li>
-                <li class="lists"><a href="#">JavaScript</a></li>
-            </UL>
-        </div>
-        <div class="buttonsee">
-            <button>See Project</button>
+                <div>
+                    <img src="./image/card1.png" alt="">
+                </div>
+            </div>
+            <div class="cards">
+                <div>
+                    <h1>Tonic </h1>
+                </div>
+                <div>
+                    <ul class="flex">
+                        <b>CANOPY</b>
+                        <li>Back End Developer</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>A daily selection of privately<br>
+                        personalized reads; no accounts or <br>
+                        sign-ups required.</p>
+                </div>
+                <div>
+                    <UL class="address">
+                        <li class="lists"><a href="#">HTML</a></li>
+                        <li class="lists"><a href="#">CSS</a></li>
+                        <li class="lists"><a href="#">JavaScript</a></li>
+                    </UL>
+                </div>
+                <div class="buttonsee">
+                    <button>See Project</button>
+                </div>
+            </div>
         </div>
 
+        <!--div 1 end-->
+        <div class="desktopv">
+            <div class="cards">
+
+                <div>
+                    <img src="./image/card2.png" alt="">
+                </div>
+            </div>
+            <div class="cards">
+                <div>
+                    <h1>Tonic </h1>
+                </div>
+                <div>
+                    <ul class="flex">
+                        <b>CANOPY</b>
+                        <li>Back End Developer</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>A daily selection of privately<br>
+                        personalized reads; no accounts or <br>
+                        sign-ups required.</p>
+                </div>
+                <div>
+                    <UL class="address">
+                        <li class="lists"><a href="#">HTML</a></li>
+                        <li class="lists"><a href="#">CSS</a></li>
+                        <li class="lists"><a href="#">JavaScript</a></li>
+                    </UL>
+                </div>
+                <div class="buttonsee">
+                    <button>See Project</button>
+                </div>
+            </div>
+        </div>
+
+        <!--div 2 end-->
+
+        <div class="desktopv">
 
 
+            <div class="cards">
+
+                <div>
+                    <img src="./image/card3.png" alt="">
+                </div>
+            </div>
+            <div class="cards">
+                <div>
+                    <h1>Tonic </h1>
+                </div>
+                <div>
+                    <ul class="flex">
+                        <b>CANOPY</b>
+                        <li>Back End Developer</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>A daily selection of privately<br>
+                        personalized reads; no accounts or <br>
+                        sign-ups required.</p>
+                </div>
+                <div>
+                    <UL class="address">
+                        <li class="lists"><a href="#">HTML</a></li>
+                        <li class="lists"><a href="#">CSS</a></li>
+                        <li class="lists"><a href="#">JavaScript</a></li>
+                    </UL>
+                </div>
+                <div class="buttonsee">
+                    <button>See Project</button>
+                </div>
+            </div>
+        </div>
+
+        <!--div 3 end-->
+        <div class="desktopv">
+            <div class="cards">
 
 
-        <div class="header2">
-            <h1>Get in touch</h1>
-        </div>
-        <div>
-            <img src="./image/card4.png" alt="">
-        </div>
-        <div>
-            <h1>Tonic </h1>
-        </div>
-        <div>
-            <ul class="flex">
-                <b>CANOPY</b>
-                <li>Back End Developer</li>
-                <li>2015</li>
-            </ul>
-        </div>
-        <div>
-            <p>A daily selection of privately<br>
-                personalized reads; no accounts or <br>
-                sign-ups required.</p>
-        </div>
-        <div>
-            <UL class="address">
-                <li class="lists"><a href="#">HTML</a></li>
-                <li class="lists"><a href="#">CSS</a></li>
-                <li class="lists"><a href="#">JavaScript</a></li>
-            </UL>
-        </div>
-        <div class="buttonsee">
-            <button>See Project</button>
-        </div>
+                <div>
+                    <img src="./image/card4.png" alt="">
+                </div>
 
-
-
+            </div>
+            <div class="cards">
+                <div>
+                    <h1>Tonic </h1>
+                </div>
+                <div>
+                    <ul class="flex">
+                        <b>CANOPY</b>
+                        <li>Back End Developer</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>A daily selection of privately<br>
+                        personalized reads; no accounts or <br>
+                        sign-ups required.</p>
+                </div>
+                <div>
+                    <UL class="address">
+                        <li class="lists"><a href="#">HTML</a></li>
+                        <li class="lists"><a href="#">CSS</a></li>
+                        <li class="lists"><a href="#">JavaScript</a></li>
+                    </UL>
+                </div>
+                <div class="buttonsee">
+                    <button>See Project</button>
+                </div>
+            </div>
+        </div>
     </section>
+
+
+
+    <!--section    3-->
     <section>
-        <div>
-            <h1>About Myself</h1>
-        </div>
-        <div>
-            <p>Hello I’m a software developer! I can <br>
-                help you build a product , feature or<br>
-                website. Look through some of my work <br>
-                and experience! If you like what you see <br>
-                and have a project you need coded,<br>
-                don’t hesitate to contact me.</p>
-        </div>
-        <div class="link2">
-            <h4>LET'S CONNECT</h4>
-        </div>
-        <div class="social2">
+        <div class="desktopv">
 
-            <a href="https://twitter.com/" class="a"> <img src="./image/twitter.png" alt="twitter"></a>
-            <a href="/project1/image/Linkedin icon.png" class="b"> <img src="./image/Linkedin icon.png"
-                    alt="linkedin"></a>
-            <a href="" class="c"> <img src="./image/medium.png" alt="medium"></a>
-            <a href="https://github.com/DinknehTemesgen" class="d"> <img src="./image/github.png"
-                    alt="github"></a>
-            <a href="" class="e"> <img src="./image/angellist.png" alt="angel"></a>
+            <div class="cards" id="about">
 
-        </div>
-        <div class="buttonsee2">
-            <button>Get my resume</button>
-        </div>
-        <div class="languages">
-            <b>Languages </b>
-            <img src="./image/downArrow.png">
-        </div>
+                <div>
+                    <h1>About Myself</h1>
+                </div>
+                <div>
+                    <p>Hello I’m a software developer! I can <br>
+                        help you build a product , feature or<br>
+                        website. Look through some of my work <br>
+                        and experience! If you like what you see <br>
+                        and have a project you need coded,<br>
+                        don’t hesitate to contact me.</p>
+                </div>
+                <div class="link2">
+                    <h4>LET'S CONNECT</h4>
+                </div>
+                <div class="social2">
 
-        <div> <img src="./image/JS.png" alt="Java Script"> <B>Java Script</B></div>
-        <div> <img src="./image/HTML.png" alt="HTML"> <b>HTMl</b></div>
-        <div> <img src="./image/CSS.png" alt="CSS"><b>CSS</b></div>
+                    <a href="https://twitter.com/" class="a"> <img src="./image/twitter.png"
+                            alt="twitter"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="/project1/image/Linkedin icon.png" class="b"> <img src="./image/Linkedin icon.png"
+                            alt="linkedin"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="" class="c"> <img src="./image/medium.png" alt="medium"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/DinknehTemesgen" class="d"> <img src="./image/github.png"
+                            alt="github"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="" class="e"> <img src="./image/angellist.png" alt="angel"></a>
 
-        <div>
-            <li class="languages">
-                <div class="frame-skill">FrameWorks</div><svg width="8" height="15" viewBox="0 0 8 15" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0.292893 0.439622C0.683417 0.0490974 1.31658 0.0490974 1.70711 0.439622L7.70711 6.43962C8.09763 6.83015 8.09763 7.46331 7.70711 7.85384L1.70711 13.8538C1.31658 14.2444 0.683417 14.2444 0.292893 13.8538C-0.0976311 13.4633 -0.0976311 12.8301 0.292893 12.4396L5.58579 7.14673L0.292893 1.85384C-0.0976311 1.46331 -0.0976311 0.830146 0.292893 0.439622Z"
-                        fill="#505F79" />
-                </svg>
-            </li>
-            <li class="languages">
-                <div class="frame-skill"> Skill
-                   </div>
-                <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0.292893 0.439622C0.683417 0.0490974 1.31658 0.0490974 1.70711 0.439622L7.70711 6.43962C8.09763 6.83015 8.09763 7.46331 7.70711 7.85384L1.70711 13.8538C1.31658 14.2444 0.683417 14.2444 0.292893 13.8538C-0.0976311 13.4633 -0.0976311 12.8301 0.292893 12.4396L5.58579 7.14673L0.292893 1.85384C-0.0976311 1.46331 -0.0976311 0.830146 0.292893 0.439622Z"
-                        fill="#505F79" />
-                </svg>
-            </li>
+                </div>
+                <div class="buttonsee2">
+                    <button>Get my resume</button>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="languages">
+                    <b>Languages </b>
+                    <img src="./image/downArrow.png">
+                </div>
+
+                <div> <img src="./image/JS.png" alt="Java Script"> <B>Java Script</B></div>
+                <div> <img src="./image/HTML.png" alt="HTML"> <b>HTMl</b></div>
+                <div> <img src="./image/CSS.png" alt="CSS"><b>CSS</b></div>
+
+                <div>
+                    <li class="languages">
+                        <div class="frame-skill">FrameWorks</div><svg width="8" height="15" viewBox="0 0 8 15"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.292893 0.439622C0.683417 0.0490974 1.31658 0.0490974 1.70711 0.439622L7.70711 6.43962C8.09763 6.83015 8.09763 7.46331 7.70711 7.85384L1.70711 13.8538C1.31658 14.2444 0.683417 14.2444 0.292893 13.8538C-0.0976311 13.4633 -0.0976311 12.8301 0.292893 12.4396L5.58579 7.14673L0.292893 1.85384C-0.0976311 1.46331 -0.0976311 0.830146 0.292893 0.439622Z"
+                                fill="#505F79" />
+                        </svg>
+                    </li>
+                    <li class="languages">
+                        <div class="frame-skill"> Skill
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.292893 0.439622C0.683417 0.0490974 1.31658 0.0490974 1.70711 0.439622L7.70711 6.43962C8.09763 6.83015 8.09763 7.46331 7.70711 7.85384L1.70711 13.8538C1.31658 14.2444 0.683417 14.2444 0.292893 13.8538C-0.0976311 13.4633 -0.0976311 12.8301 0.292893 12.4396L5.58579 7.14673L0.292893 1.85384C-0.0976311 1.46331 -0.0976311 0.830146 0.292893 0.439622Z"
+                                fill="#505F79" />
+                        </svg>
+                    </li>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!--section    4-->
+    <section class="contactme" id="contact">
+        <div>
+            <div class="contactMeTextColor ">
+                <h1>Contact me</h1>
+            </div>
+            <div class="descriptionTextColor">
+                <p>If you have an application you are interested in<br>
+                    developing, a feature that you need built or a project<br>
+                    that needs coding. I’d love to help with it</p>
+            </div>
+            <form id="contact-form" action="https://formspree.io/f/mwkgzorr" method="post">
+                <div class="inputs">
+                    <input class="input1" type="text" name="name" placeholder="Enter your full name!" required
+                        maxlength="30">
+                    <input class="input2" type="email" id="email" name="email" placeholder="Please enter your email"
+                        required maxlength="25">
+                    <textarea class="input3" name="message" placeholder="your message here!" maxlength="500"
+                        required></textarea>
+                </div>
+                <div id="error-message" class="error-message"></div>
+                <div class="Cbutton">
+                    <input class="contactmeButton" type="submit" value="Get in touch">
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <script>
+        const form = document.getElementById('contact-form');
+        const emailInput = document.getElementById('email');
+        const errorMessage = document.getElementById('error-message');
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const email = emailInput.value;
+            if (email === email.toLowerCase()) {
+                form.submit();
+            } else {
+                errorMessage.textContent = 'Please enter your email in lowercase!';
+            }
+        });
+
+    </script>
 </body>
 
 </html>
